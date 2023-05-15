@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: "demo"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "1"
+    network_mode: host
